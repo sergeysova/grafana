@@ -151,7 +151,7 @@ function SpanBar({
       onMouseLeave={setShortLabel}
       onMouseOver={setLongLabel}
       aria-hidden
-      data-testid={selectors.components.TraceViewer.spanBar}
+      data-testid="SpanBar--wrapper"
     >
       <div
         aria-label={label}
