@@ -11,7 +11,7 @@ export function fetchContactPointsState(alertManagerSourceName: String): Promise
 
   const contactPointsStateDtoToModel = (receiversSateDto: ReceiversStateDTO[]): ContactPointsState => {
     // init object to return
-    const contactPointpState: ContactPointsState = { receivers: {}, errorCount: 0 };
+    const contactPointsState: ContactPointsState = { receivers: {}, errorCount: 0 };
 
     // for each receiver from response
     receiversSateDto.forEach((cpState) => {
